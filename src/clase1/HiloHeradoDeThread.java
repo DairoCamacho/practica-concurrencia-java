@@ -13,6 +13,8 @@ public class HiloHeradoDeThread extends Thread {
      * No sabemos el orden de ejecución de los hilos
      * <p>
      * se puede usar el método .stop() para detener un hilo pero está desaconsejado
+     * <p>
+     * la clase Thread nos brinda el método getName para conocer el número del hilo
      */
 
     private int id;
