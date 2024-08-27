@@ -1,7 +1,7 @@
 package clase1_2;
 
 // https://youtu.be/w883bDxMgS8?list=PLI13k_SD5SxGQC3CtDWM-BMo2Atbm0nCI
-public class Tarea extends ClaseBase implements Runnable {
+public class TareaImplementadoRunnable extends ClaseBase implements Runnable {
     /**
      * La ventaja más grande es que
      * Implementar la interface Runnable nos permite poder hacer herencia de otro clase base
@@ -14,7 +14,7 @@ public class Tarea extends ClaseBase implements Runnable {
     private String nombreTarea;
     private boolean activado;
 
-    public Tarea(int id, String nombreTarea) {
+    public TareaImplementadoRunnable(int id, String nombreTarea) {
         this.id = id;
         this.nombreTarea = nombreTarea;
         this.activado = true;

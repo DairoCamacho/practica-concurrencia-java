@@ -1,7 +1,9 @@
-package clase1;
+package clase1_1;
 
 public class HiloHeradoDeThread extends Thread {
     /**
+     * https://youtu.be/CkzG3ysYzFA?list=PLw8RQJQ8K1ySGcb3ZP66peK4Za0LKf728
+     * https://youtu.be/oOVj1fGXQrc?list=PLI13k_SD5SxGQC3CtDWM-BMo2Atbm0nCI
      * Para lanzar hilo se hace desde
      * objetos creados a partir de la clase que heredan de Thread
      * <p>

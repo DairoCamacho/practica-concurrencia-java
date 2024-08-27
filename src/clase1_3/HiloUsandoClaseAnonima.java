@@ -1,6 +1,6 @@
 package clase1_3;
 
-public class Principal {
+public class HiloUsandoClaseAnonima {
     /**
      * No facilitar reutilizar código
      * <p>
